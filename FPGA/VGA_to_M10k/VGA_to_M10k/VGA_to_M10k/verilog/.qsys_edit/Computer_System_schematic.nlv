@@ -1,0 +1,93 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst Computer_System.ARM_A9_HPS.fpga_interfaces -pg 1
+preplace inst Computer_System.ARM_A9_HPS.arm_a9_0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.axi_ocram -pg 1
+preplace inst Computer_System.ARM_A9_HPS.clkmgr -pg 1
+preplace inst Computer_System.ARM_A9_HPS.arm_a9_1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.clk_0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.wd_timer0 -pg 1
+preplace inst Computer_System.AXI_PIO_LW_IFM_WR_ADDR -pg 1 -lvl 6 -y 360
+preplace inst Computer_System.ARM_A9_HPS.hps_io -pg 1
+preplace inst Computer_System.ARM_A9_HPS.wd_timer1 -pg 1
+preplace inst Computer_System.AXI_PIO_LW_THR_OUT -pg 1 -lvl 6 -y 140
+preplace inst Computer_System.ARM_A9_HPS.f2s_periph_ref_clk -pg 1
+preplace inst Computer_System.ARM_A9_HPS.i2c0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.qspi -pg 1
+preplace inst Computer_System.ARM_A9_HPS.i2c1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.i2c2 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.uart0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.i2c3 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.uart1 -pg 1
+preplace inst Computer_System.AXI_PIO_LW_WET_CURR -pg 1 -lvl 6 -y 580
+preplace inst Computer_System.ARM_A9_HPS -pg 1 -lvl 5 -y 580
+preplace inst Computer_System.ARM_A9_HPS.L2 -pg 1
+preplace inst Computer_System.System_PLL.reset_from_locked -pg 1
+preplace inst Computer_System.ARM_A9_HPS.fpgamgr -pg 1
+preplace inst Computer_System.ARM_A9_HPS.eosc1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.gpio0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.eosc2 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.gpio1 -pg 1
+preplace inst Computer_System.AXI_PIO_MAIN_LOW_OUT -pg 1 -lvl 6 -y 690
+preplace inst Computer_System.ARM_A9_HPS.gpio2 -pg 1
+preplace inst Computer_System.System_PLL -pg 1 -lvl 1 -y 2360
+preplace inst Computer_System.ARM_A9_HPS.usb0 -pg 1
+preplace inst Computer_System.AXI_PIO_LW_VALID -pg 1 -lvl 6 -y 250
+preplace inst Computer_System.ARM_A9_HPS.axi_sdram -pg 1
+preplace inst Computer_System.ARM_A9_HPS.usb1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.dcan0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.dcan1 -pg 1
+preplace inst Computer_System.AXI_PIO_MAIN_HIGH_OUT -pg 1 -lvl 6 -y 800
+preplace inst Computer_System.AXI_PIO_LW_WET_WR_ADDR -pg 1 -lvl 6 -y 910
+preplace inst Computer_System.ARM_A9_HPS.nand0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.sdrctl -pg 1
+preplace inst Computer_System.ARM_A9_HPS.spim0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.rstmgr -pg 1
+preplace inst Computer_System.ARM_A9_HPS.spim1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.hps_io.border -pg 1
+preplace inst Computer_System.ARM_A9_HPS.l3regs -pg 1
+preplace inst Computer_System.ARM_A9_HPS.scu -pg 1
+preplace inst Computer_System.AXI_PIO_LW_IFM_DONE -pg 1 -lvl 6 -y 1200
+preplace inst Computer_System.m10k_pll -pg 1 -lvl 6 -y 1110
+preplace inst Computer_System.ARM_A9_HPS.timer -pg 1
+preplace inst Computer_System.ARM_A9_HPS.timer0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.f2s_sdram_ref_clk -pg 1
+preplace inst Computer_System.ARM_A9_HPS.arm_gic_0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.timer1 -pg 1
+preplace inst Computer_System.System_PLL.sys_pll -pg 1
+preplace inst Computer_System.AXI_PIO_LW_READY -pg 1 -lvl 6 -y 30
+preplace inst Computer_System.ARM_A9_HPS.timer2 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.sdmmc -pg 1
+preplace inst Computer_System.ARM_A9_HPS.timer3 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.bridges -pg 1
+preplace inst Computer_System.ARM_A9_HPS.gmac0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.gmac1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.sysmgr -pg 1
+preplace inst Computer_System.vga_pio -pg 1 -lvl 6 -y 1020
+preplace inst Computer_System.AXI_PIO_LW_IFM_CURR -pg 1 -lvl 6 -y 470
+preplace inst Computer_System -pg 1 -lvl 1 -y 40 -regml 8 -regy -20
+preplace inst Computer_System.ARM_A9_HPS.dma -pg 1
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.axi_pio_lw_ifm_done_external_connection,(SLAVE)AXI_PIO_LW_IFM_DONE.external_connection) 1 0 6 NJ 1230 NJ 1230 NJ 1230 NJ 1230 NJ 1230 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.axi_pio_lw_ready_external_connection,(SLAVE)AXI_PIO_LW_READY.external_connection) 1 0 6 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.system_pll_ref_clk,(SLAVE)System_PLL.ref_clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(MASTER)vga_pio.outclk0,(MASTER)Computer_System.vga_pio_outclk0) 1 6 2 NJ 1050 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.axi_pio_mainhigh_out_external_connection,(SLAVE)AXI_PIO_MAIN_HIGH_OUT.external_connection) 1 0 6 NJ 830 NJ 830 NJ 830 NJ 830 NJ 830 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)AXI_PIO_MAIN_LOW_OUT.external_connection,(SLAVE)Computer_System.axi_pio_main_low_out_external_connection) 1 0 6 NJ 750 NJ 750 NJ 750 NJ 750 NJ 750 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)System_PLL.ref_reset,(SLAVE)Computer_System.system_pll_ref_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.axi_pio_lw_ifm_wr_addr_external_connection,(SLAVE)AXI_PIO_LW_IFM_WR_ADDR.external_connection) 1 0 6 NJ 390 NJ 390 NJ 390 NJ 390 NJ 390 NJ
+preplace netloc FAN_OUT<net_container>Computer_System</net_container>(MASTER)System_PLL.sys_clk,(SLAVE)AXI_PIO_LW_READY.clk,(SLAVE)AXI_PIO_LW_WET_CURR.clk,(SLAVE)AXI_PIO_LW_IFM_CURR.clk,(SLAVE)AXI_PIO_LW_WET_WR_ADDR.clk,(SLAVE)vga_pio.refclk,(SLAVE)AXI_PIO_MAIN_LOW_OUT.clk,(SLAVE)AXI_PIO_LW_IFM_DONE.clk,(SLAVE)AXI_PIO_LW_VALID.clk,(SLAVE)AXI_PIO_MAIN_HIGH_OUT.clk,(SLAVE)AXI_PIO_LW_IFM_WR_ADDR.clk,(SLAVE)ARM_A9_HPS.h2f_axi_clock,(SLAVE)m10k_pll.refclk,(SLAVE)ARM_A9_HPS.h2f_lw_axi_clock,(SLAVE)AXI_PIO_LW_THR_OUT.clk,(SLAVE)ARM_A9_HPS.f2h_axi_clock) 1 1 5 NJ 2410 NJ 2410 NJ 2410 1560 770 2140
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.axi_pio_lw_wet_curr_external_connection,(SLAVE)AXI_PIO_LW_WET_CURR.external_connection) 1 0 6 NJ 540 NJ 540 NJ 540 NJ 540 NJ 540 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)AXI_PIO_LW_IFM_CURR.external_connection,(SLAVE)Computer_System.axi_pio_lw_ifm_curr_external_connection) 1 0 6 NJ 500 NJ 500 NJ 500 NJ 500 NJ 500 NJ
+preplace netloc FAN_OUT<net_container>Computer_System</net_container>(SLAVE)AXI_PIO_MAIN_LOW_OUT.s1,(MASTER)ARM_A9_HPS.h2f_axi_master,(SLAVE)AXI_PIO_MAIN_HIGH_OUT.s1) 1 5 1 2180
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)vga_pio.locked,(SLAVE)Computer_System.vga_pio_locked) 1 0 6 NJ 1030 NJ 1030 NJ 1030 NJ 1030 NJ 1030 NJ
+preplace netloc INTERCONNECT<net_container>Computer_System</net_container>(SLAVE)AXI_PIO_LW_WET_CURR.reset,(SLAVE)AXI_PIO_LW_IFM_DONE.reset,(SLAVE)vga_pio.reset,(SLAVE)AXI_PIO_LW_WET_WR_ADDR.reset,(SLAVE)AXI_PIO_LW_IFM_CURR.reset,(MASTER)ARM_A9_HPS.h2f_reset,(MASTER)System_PLL.reset_source,(SLAVE)m10k_pll.reset,(SLAVE)AXI_PIO_LW_THR_OUT.reset,(SLAVE)AXI_PIO_MAIN_HIGH_OUT.reset,(SLAVE)AXI_PIO_LW_IFM_WR_ADDR.reset,(SLAVE)AXI_PIO_LW_VALID.reset,(SLAVE)AXI_PIO_LW_READY.reset,(SLAVE)AXI_PIO_MAIN_LOW_OUT.reset) 1 1 5 NJ 2370 NJ 2370 NJ 2370 NJ 2370 2200
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)ARM_A9_HPS.memory,(SLAVE)Computer_System.memory) 1 0 5 NJ 690 NJ 690 NJ 690 NJ 690 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.m10k_pll_locked,(SLAVE)m10k_pll.locked) 1 0 6 NJ 1120 NJ 1120 NJ 1120 NJ 1120 NJ 1120 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.axi_pio_lw_wet_wr_addr_external_connection,(SLAVE)AXI_PIO_LW_WET_WR_ADDR.external_connection) 1 0 6 NJ 940 NJ 940 NJ 940 NJ 940 NJ 940 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)AXI_PIO_LW_VALID.external_connection,(SLAVE)Computer_System.axi_pio_lw_valid_external_connection) 1 0 6 NJ 280 NJ 280 NJ 280 NJ 280 NJ 280 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(MASTER)m10k_pll.outclk0,(MASTER)Computer_System.m10k_pll_outclk0) 1 6 2 NJ 1140 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.hps_io,(SLAVE)ARM_A9_HPS.hps_io) 1 0 5 NJ 630 NJ 630 NJ 630 NJ 630 NJ
+preplace netloc FAN_OUT<net_container>Computer_System</net_container>(SLAVE)AXI_PIO_LW_WET_WR_ADDR.s1,(SLAVE)AXI_PIO_LW_THR_OUT.s1,(SLAVE)AXI_PIO_LW_WET_CURR.s1,(SLAVE)AXI_PIO_LW_IFM_DONE.s1,(SLAVE)AXI_PIO_LW_IFM_CURR.s1,(SLAVE)AXI_PIO_LW_IFM_WR_ADDR.s1,(MASTER)ARM_A9_HPS.h2f_lw_axi_master,(SLAVE)AXI_PIO_LW_VALID.s1,(SLAVE)AXI_PIO_LW_READY.s1) 1 5 1 2240
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)AXI_PIO_LW_THR_OUT.external_connection,(SLAVE)Computer_System.axi_pio_lw_thr_out_external_connection) 1 0 6 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ
+levelinfo -pg 1 0 190 3050
+levelinfo -hier Computer_System 200 270 680 1100 1540 1950 2430 2900 2920
